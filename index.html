@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short Links</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <div id="divContainer">
+
+            <div id="divTop">
+    
+                <div id="divTitle">
+
+                    <img src="logo.png">
+                    <label id="lblTitle">Short Links</label>
+
+                </div>
+
+                <div id="divLabelOne">
+
+                    <label class="lbls">Paste the URL to be shortened</label>
+                    
+                </div>
+
+                <div id="divShort">
+
+                    <input class="inpts" type="text" placeholder="Enter the link here">
+                    <button id="btnShort" class="btns" onclick="Short()">Shorten URL</button>
+                    
+                </div>
+
+            </div>
+    
+            <div id="divBottom">
+
+                <div id="divLabelTwo">
+
+                    <label class="lbls">Copy here the shortened URL </label><br><br>
+
+                </div>
+    
+                <div id="divCopy">
+
+                    <input id="inptShortURL" class="inpts" type="text" placeholder="Here your shortened URL">
+                    <button id="btnCopy" class="btns" onclick="Copy()">Copy</button>      
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    <script src="short.js"></script>
+    
+</body>
+</html>

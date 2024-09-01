@@ -1,0 +1,173 @@
+
+html{
+
+    height: 100%;
+
+}
+
+
+body{
+
+    background-color: #f2f2f2;
+    height: 100%;
+    margin: 0;
+
+}
+
+#divContainer{
+
+    height: 100%;
+    margin: 0;
+
+}
+
+
+#divTop{
+    
+    height: 40%;
+    
+}
+
+    #divTitle{
+        
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #divLabelOne{
+        
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        
+    }
+
+    #divShort{
+        
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+#divBottom{
+    
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+    #divLabelTwo{
+
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+
+    }
+    
+    #divCopy{
+
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+img{
+
+    margin-right: 20px;
+    width: 4%;
+
+}
+
+#lblTitle{
+
+    color: #232323;
+    font-size: 45px;
+    font-family: Arial;
+    font-weight: bolder;
+
+}
+
+.lbls{
+
+    margin-bottom: 10px;
+    color: #232323;
+    font-size: 30px;
+    font-family: Arial;
+
+}
+
+.inpts{
+
+    padding-left: 10px;
+    height: 40px;
+    width: 350px;
+    font-size: 15px;
+    font-family: Arial;
+    border-top: solid 2px #232323;
+    border-right: solid 0px #232323;
+    border-bottom: solid 2px #232323;
+    border-left: solid 2px #232323;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.btns{
+
+    height: 45px;
+    width: 150px;
+    color: #f2f2f2;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bolder;
+    border-top: solid 2px #232323;
+    border-right: solid 2px #232323;
+    border-bottom: solid 2px #232323;
+    border-left: solid 2px #232323;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.inpts:focus{
+
+    outline: none;
+
+}
+
+#btnShort:hover{
+
+    cursor: pointer;
+    background-color:#232323;
+    transition: 0.5s;   
+
+}
+
+#btnCopy:hover{
+
+    cursor: pointer;
+    background-color:#232323;
+    transition: 0.5s;   
+
+}
+
+#btnShort{
+
+    background-color: #7b2da1;
+
+}
+
+#btnCopy{
+
+    background-color: #7b2da1;
+
+}
