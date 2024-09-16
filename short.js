@@ -8,6 +8,12 @@ const letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'
 
 const lengthURL = 8
 
+const copyToClipboard = (urlCopied) => {
+
+    navigator.clipboard.writeText(urlCopied)
+
+}
+
 function Short(){
 
     var shortURL = ''
@@ -45,5 +51,8 @@ function Copy(){
     elementBtnCopy.disabled = true
     elementBtnCopy.style.background = "#52e342" 
     elementBtnCopy.textContent = 'Copied'
+
+    const linktoCopy = elementInptShortURL.value
+    copyToClipboard(linktoCopy)
 
 }
